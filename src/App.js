@@ -7,13 +7,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Bem-vindo ao React Router!</h1>
+      <h1>Lista de Pokemons</h1>
       <nav>
-        <ul>
-          <li>
-            <Link to="/mypokemons">My Pokemons</Link>
-          </li>
-        </ul>
+        <p>
+          <Link to="/mypokemons">Meus Pokemons</Link>
+        </p>
       </nav>
       <Routes>
         <Route path="mypokemons" element={<MyPokemons />} />
